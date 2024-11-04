@@ -5,7 +5,7 @@ import 'feature/intro/splash_screen.dart';
 
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  //initialize hive
+  //initialize hive db
   await Hive.initFlutter();
   //create or open a box(table name)
   await Hive.openBox('user');
